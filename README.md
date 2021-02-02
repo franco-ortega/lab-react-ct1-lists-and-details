@@ -12,6 +12,6 @@
     1. AllCatFacts.jsx (in components/cats)
     1. Cat.css (in components/cats)
 1. Create fetch call function
-1. Use fetch call function in AllCatFacts.jsx
-1. Create CatFactList.jsx
+1. Use fetch call function in AllCatFacts.jsx and display CatFactList
+1. Create CatFactList.jsx to display CatFact entries
 1. Create CatFact.jsx
