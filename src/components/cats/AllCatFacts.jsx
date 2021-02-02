@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { getCatFacts } from '../../services/catFactsApi';
+import CatFactList from './CatFactList';
 
 export default class AllCatFacts extends Component {
     state = {
