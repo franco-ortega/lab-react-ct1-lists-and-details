@@ -13,7 +13,6 @@ export default function App() {
     <>
       <Router>
         <h1>Hello Cats!</h1>
-        <AllCatFacts />
         <Switch>
           <Route
             path="/"

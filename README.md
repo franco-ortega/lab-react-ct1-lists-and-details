@@ -15,3 +15,6 @@
 1. Use fetch call function in AllCatFacts.jsx and display CatFactList
 1. Create CatFactList.jsx to display CatFact entries
 1. Create CatFact.jsx
+1. Add AllCatFacts to App.jsx
+1. Add Router, Switch, and Routes to App.jsx
+1. Add initial Home and Details files
