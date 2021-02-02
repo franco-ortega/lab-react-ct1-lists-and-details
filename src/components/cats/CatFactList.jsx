@@ -4,7 +4,7 @@ import CatFact from './CatFact';
 
 const CatFactList = ({ catFacts }) => {
   const catElements = catFacts.map(catFact => (
-    <li key={catFact.id}>
+    <li key={catFact.breed}>
       <CatFact {...catFact} />
     </li>
   ));
