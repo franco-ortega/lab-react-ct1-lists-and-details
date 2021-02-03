@@ -1,11 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CatFact from './CatFact';
 import { Link } from 'react-router-dom';
 import CatBreed from './CatBreed';
 
-const CatFactList = ({ catFacts }) => {
-    // console.log(catFacts);
+const CatBreedList = ({ catFacts }) => {
   const catElements = catFacts.map((catFact, index) => (
     <Link
       to={`details/${index}`}
@@ -23,8 +21,8 @@ const CatFactList = ({ catFacts }) => {
   );
 };
 
-CatFactList.propTypes = {
+CatBreedList.propTypes = {
   catFacts: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
-export default CatFactList;
+export default CatBreedList;

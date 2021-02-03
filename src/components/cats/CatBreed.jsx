@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const CatBreed = ({ breed }) => (
   <>
-    <h1>{breed}</h1>
+    <h3>{breed}</h3>
   </>
 );
 

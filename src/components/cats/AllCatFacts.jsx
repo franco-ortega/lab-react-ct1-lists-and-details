@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { getCatFacts } from '../../services/catFactsApi';
-import CatFactList from './CatFactList';
+import CatBreedList from './CatBreedList';
 
 export default class AllCatFacts extends Component {
     state = {
@@ -17,7 +17,7 @@ export default class AllCatFacts extends Component {
       console.log(catFacts[0]);
       
       return (
-        <CatFactList catFacts={catFacts} />
+        <CatBreedList catFacts={catFacts} />
       );
     }
 }
