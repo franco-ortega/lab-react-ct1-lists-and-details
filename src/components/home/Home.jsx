@@ -7,10 +7,10 @@ export default class Home extends Component {
     return (
       <>
         <h2>Cat Breeds</h2>
-        <p>
+        <section>
         There are many different breeds of cats around the world.
         Click on a breed to see its country of origin, coat, and pattern.
-        </p>
+        </section>
         <AllCatBreeds />
       </>
     );

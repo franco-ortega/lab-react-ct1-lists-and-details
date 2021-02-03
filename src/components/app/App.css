@@ -13,20 +13,16 @@ body {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-}
 
 section {
+    color: brown;
     margin: 20px;
-    text-align: center;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: space-evenly;
     border: solid 3px black;
     padding: 5px;
@@ -52,4 +48,8 @@ a:visited {
 
 a:active {
     color: lightslategray;
+}
+
+p {
+    text-align: left;
 }
