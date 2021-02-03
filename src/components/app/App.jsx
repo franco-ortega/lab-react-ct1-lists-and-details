@@ -4,7 +4,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-// import AllCatFacts from '../cats/AllCatFacts';
 import Details from '../details/Details';
 import Home from '../home/Home';
 
@@ -12,7 +11,7 @@ export default function App() {
   return (
     <>
       <Router>
-        <h1>Cat Facts!</h1>
+        <h1>Cat Across the Globe!</h1>
         <Switch>
           <Route
             path="/"
