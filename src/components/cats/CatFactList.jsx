@@ -4,14 +4,14 @@ import CatFact from './CatFact';
 import { Link } from 'react-router-dom';
 
 const CatFactList = ({ catFacts }) => {
-  const catElements = catFacts.map(catFact => (
+    // console.log(catFacts);
+  const catElements = catFacts.map((catFact, index) => (
     <Link
-      to={`details/${catFact.breed}`}
+      to={`details/${index}`}
       key={catFact.breed}>
-      <li key={catFact.breed}>
+      <li>{index}
         <CatFact {...catFact} />
       </li>
-      
     </Link>
   ));
 

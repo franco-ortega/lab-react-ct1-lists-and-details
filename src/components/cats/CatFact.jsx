@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const CatFact = ({ breed, country, coat, pattern }) => (
   <>
     <h1>{breed}</h1>
-    <p>{country}</p>
-    <p>{coat}</p>
-    <p>{pattern}</p>
+    <p>Country: {country}</p>
+    <p>Coat: {coat}</p>
+    <p>Pattern: {pattern}</p>
   </>
 );
 
