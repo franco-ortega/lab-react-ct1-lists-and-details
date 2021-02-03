@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Home.css';
 import AllCatBreeds from '../cats/AllCatBreeds';
 
 export default class Home extends Component {
