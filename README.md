@@ -1,5 +1,8 @@
 # lab-react-ct1-lists-and-details
 
+API:
+https://documenter.getpostman.com/view/1946054/S11HvKSz
+
 1. Create repo
 1. npm init @alchemycodelab/app@latest
 1. Set up initial folders:

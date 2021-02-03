@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <Router>
-        <h1>Cat Across the Globe!</h1>
+        <h1>Cats Across the Globe!</h1>
         <Switch>
           <Route
             path="/"
