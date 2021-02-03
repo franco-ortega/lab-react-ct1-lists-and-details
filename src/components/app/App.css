@@ -10,6 +10,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -19,4 +20,36 @@ h1 {
 section {
     margin: 20px;
     text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    border: solid 3px black;
+    padding: 5px;
+    width: 90vw;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+a:link {
+    color: darkslategray;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: lightslategray;
 }
