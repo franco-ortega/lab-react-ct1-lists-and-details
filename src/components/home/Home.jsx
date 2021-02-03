@@ -7,7 +7,7 @@ export default class Home extends Component {
       <>
         <h1>These are cat facts:</h1>
         <AllCatFacts
-          breed={this.breed}
+        //   breed={this.breed}
         />
       </>
     );

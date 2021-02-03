@@ -8,14 +8,14 @@ export default class Details extends Component {
     }
   
     componentDidMount() {
-        const index = this.props.match.params.index;
+      const index = this.props.match.params.index;
       getCatFacts()
         .then(catFacts => this.setState({ catFact: catFacts[index] }));
     }
   
     render() {
-        const { catFact } = this.state;
-        if(!catFact) return <h1>Loading</h1>
+      const { catFact } = this.state;
+      if(!catFact) return <h1>Loading</h1>;
       return (
         <div>
                 Here are the cat details you desire!

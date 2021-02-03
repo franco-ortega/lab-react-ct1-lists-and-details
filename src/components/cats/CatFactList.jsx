@@ -9,7 +9,7 @@ const CatFactList = ({ catFacts }) => {
     <Link
       to={`details/${index}`}
       key={catFact.breed}>
-      <li>{index}
+      <li>
         <CatFact {...catFact} />
       </li>
     </Link>
