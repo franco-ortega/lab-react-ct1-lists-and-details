@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import AllCatFacts from '../cats/AllCatFacts';
+import AllCatBreeds from '../cats/AllCatBreeds';
 
 export default class Home extends Component {
   render() {
     return (
       <>
         <h1>These are cat facts:</h1>
-        <AllCatFacts
-        //   breed={this.breed}
-        />
+        <AllCatBreeds />
       </>
     );
   }

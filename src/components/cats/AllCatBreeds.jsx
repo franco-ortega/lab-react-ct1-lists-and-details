@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { getCatFacts } from '../../services/catFactsApi';
 import CatBreedList from './CatBreedList';
 
-export default class AllCatFacts extends Component {
+export default class AllCatBreeds extends Component {
     state = {
       catFacts: []
     }
@@ -14,7 +14,6 @@ export default class AllCatFacts extends Component {
 
     render() {
       const { catFacts } = this.state;
-      console.log(catFacts[0]);
       
       return (
         <CatBreedList catFacts={catFacts} />
