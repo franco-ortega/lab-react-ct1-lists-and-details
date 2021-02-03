@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CatFact from './CatFact';
 import { Link } from 'react-router-dom';
+import CatBreed from './CatBreed';
 
 const CatFactList = ({ catFacts }) => {
     // console.log(catFacts);
@@ -10,7 +11,7 @@ const CatFactList = ({ catFacts }) => {
       to={`details/${index}`}
       key={catFact.breed}>
       <li>
-        <CatFact {...catFact} />
+        <CatBreed {...catFact} />
       </li>
     </Link>
   ));

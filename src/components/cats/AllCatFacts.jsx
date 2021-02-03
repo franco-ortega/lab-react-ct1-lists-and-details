@@ -14,7 +14,7 @@ export default class AllCatFacts extends Component {
 
     render() {
       const { catFacts } = this.state;
-      console.log(catFacts);
+      console.log(catFacts[0]);
       
       return (
         <CatFactList catFacts={catFacts} />
